@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+
+#div-1{
+    background-color: coral;
+    width: 60%;
+    height: 200px;
+    padding: 20px;
+
+    }
+    label{
+        color: brown;
+        font-size: medium;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    input[type=text]{
+        width: 80;
+        border-radius: 2px;
+        border-style: none;
+        padding: 5px;
+    }
+    inpu[type=email]{
+        width: 80%;
+        border-radius: 2px;
+        border-style: none;
+        padding: 5px;
+    }
+    button{
+        padding: 4px;
+        background-color: blue;
+        border-style: none;
+        margin: top 10px;;
+        color: darkorange;
+        
+    }
+    button:hover{
+       background-color: darkorange; 
+    }
+    /*relative and absolute*/
+    #box1{
+        width: 100px;
+        height: 100px;
+        background-color: darkcyan;
+    }
+    #box2{
+        width: 100px;
+        height: 100px;
+        background-color: darkmagenta;
+        margin-left: 100px;
+    }
+    #box3{
+        width: 100px;
+        height: 100px;
+        background-color: darkgreen;
+        margin-left: 200px;
+    }
+    /* nav style below*/
+    
+    #nav{
+        background-color: blue;
+
+    }
+    #nav ul{
+        background-color: aqua;
+        margin: 0;
+        padding:0 ;
+         list-style-type: none;
+         overflow: hidden;
+    }
+
+#nav ul li{
+    float: left;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: block;
+    padding: 14px;
+text-transform: capitalize;
+text-shadow: 5px soid;
+}
+
+#nav ul li a:hover{
+    background-color: white;
+    color: blue;
+
+}
+    
+    
+
+
